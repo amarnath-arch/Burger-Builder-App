@@ -17,7 +17,6 @@ const burger = props => {
         transformeding=<p>Please start filling in the Ingredients</p>
     }
 
-    console.log(transformeding);
     return (
         <div className={classes.Burger}>
             <BurgerIng type="bread-top" />
